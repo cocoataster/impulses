@@ -62,10 +62,10 @@ function App() {
                                 New on App Store
                             </div>
                             <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-zinc-900 to-zinc-500 dark:from-white dark:to-zinc-400 leading-[1.1]">
-                                Conquer Your <br /> Impulses.
+                                Create Space Between <br /> "I Want" & "I Bought"
                             </h1>
                             <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-                                The easiest way to stop impulse buying. Add items, set a cooling-off period, and decide with a clear head later.
+                                Stop impulse buying by turning immediate reactions into thoughtful responses. Track items, wait it out, and decide with clarity.
                             </p>
 
                             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
@@ -125,28 +125,28 @@ function App() {
                 {/* Features Section */}
                 <section id="features" className="max-w-7xl mx-auto px-6 py-32">
                     <div className="text-center mb-16">
-                        <h2 className="text-3xl md:text-5xl font-bold mb-4">How it works</h2>
-                        <p className="text-zinc-500 text-lg max-w-2xl mx-auto">Build better spending habits in three simple steps.</p>
+                        <h2 className="text-3xl md:text-5xl font-bold mb-4">React vs Respond</h2>
+                        <p className="text-zinc-500 text-lg max-w-2xl mx-auto">Shift from immediate emotional reactions to thoughtful, deliberate actions.</p>
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-6">
                         <FeatureCard
                             delay={0.2}
                             icon={<Smartphone className="text-blue-500" />}
-                            title="1. Track it"
-                            description="See something you want? Quickly add it to Impulses instead of buying it immediately."
+                            title="Review Reactions"
+                            description="Recognize immediate, emotional responses driven by unconscious beliefs and past experiences."
                         />
                         <FeatureCard
                             delay={0.4}
                             icon={<Clock className="text-orange-500" />}
-                            title="2. Wait it out"
-                            description="Set a cooling-off period (e.g. 7 days). Let the initial excitement fade away."
+                            title="Wait & Reflect"
+                            description="Set a cooling-off period. Let the initial excitement fade so you can see clearly."
                         />
                         <FeatureCard
                             delay={0.6}
                             icon={<CheckCircle2 className="text-green-500" />}
-                            title="3. Decide later"
-                            description="When the time is up, decide with a clear head if you still really need it."
+                            title="Decide Later"
+                            description="When the time is up, decide: snag it, toss it, or hit snooze for later."
                         />
                     </div>
                 </section>
