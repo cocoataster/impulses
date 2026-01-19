@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import logoWhite from '../assets/logo-white.png';
+import logoBlack from '../assets/logo-black.png';
 
 export function PhoneFrame({ children }) {
     return (
@@ -43,7 +45,10 @@ export function AppScreenshotPlaceholder() {
         <div className="flex flex-col h-full px-4">
             <div className="flex justify-between items-end mb-6">
                 <h1 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">Impulses</h1>
-                <div className="w-8 h-8 rounded-full bg-gray-200 dark:bg-gray-800"></div>
+                <div className="w-8 h-8 rounded-lg overflow-hidden border border-gray-100 dark:border-zinc-800 flex items-center justify-center">
+                    <img src={logoBlack} alt="Logo" className="w-full h-full object-cover dark:hidden" />
+                    <img src={logoWhite} alt="Logo" className="w-full h-full object-cover hidden dark:block" />
+                </div>
             </div>
 
             {/* List Placeholders */}

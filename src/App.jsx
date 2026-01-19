@@ -1,26 +1,14 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Smartphone, Clock, CheckCircle2, ShoppingBag, Download } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import { PhoneFrame, AppScreenshotPlaceholder } from './components/PhoneFrame'
 import { FeatureCard } from './components/FeatureCard'
+import logoWhite from './assets/logo-white.png'
+import logoBlack from './assets/logo-black.png'
+import appStoreBadge from './assets/app-store-badge.svg'
 
-function App() {
-    const [darkMode, setDarkMode] = useState(false)
-
-    useEffect(() => {
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            setDarkMode(true)
-        }
-    }, [])
-
-    useEffect(() => {
-        if (darkMode) {
-            document.documentElement.classList.add('dark')
-        } else {
-            document.documentElement.classList.remove('dark')
-        }
-    }, [darkMode])
-
+function Home({ darkMode, setDarkMode }) {
     return (
         <div className="min-h-screen flex flex-col overflow-x-hidden bg-white text-zinc-950 dark:bg-zinc-950 dark:text-zinc-50 transition-colors duration-300">
 
@@ -28,10 +16,10 @@ function App() {
             <nav className="fixed top-0 w-full z-50 glass border-b border-zinc-100 dark:border-zinc-800/50">
                 <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
                     <span className="font-bold text-xl tracking-tight flex items-center gap-2">
-                        <div className="w-8 h-8 bg-zinc-900 dark:bg-white rounded-lg flex items-center justify-center text-white dark:text-zinc-900">
-                            <ShoppingBag size={18} />
+                        <div className="w-8 h-8 rounded-lg overflow-hidden border border-zinc-200 dark:border-zinc-800 flex items-center justify-center">
+                            <img src={darkMode ? logoWhite : logoBlack} alt="Impulses" className="w-full h-full object-cover" />
                         </div>
-                        Impulses.
+                        Impulses
                     </span>
                     <button
                         onClick={() => setDarkMode(!darkMode)}
@@ -61,7 +49,7 @@ function App() {
                                 </span>
                                 New on App Store
                             </div>
-                            <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-zinc-900 to-zinc-500 dark:from-white dark:to-zinc-400 leading-[1.1]">
+                            <h1 className="text-5xl md:text-7xl font-bold mb-8 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-zinc-900 to-zinc-500 dark:from-white dark:to-zinc-400 leading-[1.2] pb-2">
                                 Create Space Between <br /> "I Want" & "I Bought"
                             </h1>
                             <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
@@ -69,10 +57,16 @@ function App() {
                             </p>
 
                             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
-                                <button className="bg-zinc-900 text-white dark:bg-white dark:text-black px-8 py-4 rounded-full font-medium text-lg hover:scale-105 transition-all active:scale-95 shadow-xl shadow-zinc-200 dark:shadow-zinc-900/50 flex items-center gap-2">
-                                    <Download size={20} />
-                                    Download on App Store
-                                </button>
+                                <a
+                                    href="#"
+                                    className="hover:scale-105 transition-transform active:scale-95 transition-all duration-300"
+                                >
+                                    <img
+                                        src={appStoreBadge}
+                                        alt="Download on the App Store"
+                                        className="h-[52px] w-auto"
+                                    />
+                                </a>
                                 <button className="px-8 py-4 rounded-full font-medium text-lg hover:bg-zinc-100 dark:hover:bg-zinc-900 transition-colors text-zinc-600 dark:text-zinc-300">
                                     Learn more
                                 </button>
@@ -151,18 +145,43 @@ function App() {
                     </div>
                 </section>
 
+                {/* Privacy Preview */}
+                <section className="max-w-7xl mx-auto px-6 pb-32">
+                    <div className="bg-zinc-50 dark:bg-zinc-900/50 border border-zinc-100 dark:border-zinc-800 rounded-[2.5rem] p-8 md:p-16 text-center">
+                        <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-blue-500/10 text-blue-500 mb-6">
+                            <CheckCircle2 size={32} />
+                        </div>
+                        <h2 className="text-3xl md:text-4xl font-bold mb-6 tracking-tight">Your Data Stays Yours</h2>
+                        <p className="text-xl text-zinc-600 dark:text-zinc-400 max-w-2xl mx-auto leading-relaxed mb-8">
+                            Privacy isn't a feature; it's a foundation. Impulses collects <strong>zero data</strong>.
+                            Everything remains on your device.
+                        </p>
+                        <Link
+                            to="/privacy"
+                            className="text-blue-500 font-medium hover:underline text-lg inline-flex items-center gap-2"
+                        >
+                            Read our full Privacy Policy
+                        </Link>
+                    </div>
+                </section>
+
             </main>
 
             {/* Footer */}
             <footer className="py-12 border-t border-zinc-200 dark:border-zinc-800">
                 <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center bg-zinc-50/50 dark:bg-zinc-900/50 rounded-3xl p-8 mb-4">
                     <div className="mb-4 md:mb-0 text-center md:text-left">
-                        <span className="font-bold text-2xl tracking-tight block mb-2">Impulses.</span>
+                        <div className="flex items-center gap-2 mb-2 justify-center md:justify-start">
+                            <div className="w-8 h-8 rounded-lg overflow-hidden border border-zinc-200 dark:border-zinc-800">
+                                <img src={darkMode ? logoWhite : logoBlack} alt="Impulses" className="w-full h-full object-cover" />
+                            </div>
+                            <span className="font-bold text-2xl tracking-tight">Impulses</span>
+                        </div>
                         <p className="text-zinc-500 text-sm">Design your life, don't just buy it.</p>
                     </div>
                     <div className="flex gap-6 text-sm font-medium text-zinc-600 dark:text-zinc-400">
-                        <a href="#" className="hover:text-black dark:hover:text-white transition-colors">Privacy</a>
-                        <a href="#" className="hover:text-black dark:hover:text-white transition-colors">Terms</a>
+                        <Link to="/privacy" className="hover:text-black dark:hover:text-white transition-colors">Privacy</Link>
+                        <Link to="/terms" className="hover:text-black dark:hover:text-white transition-colors">Terms</Link>
                         <a href="#" className="hover:text-black dark:hover:text-white transition-colors">Contact</a>
                     </div>
                 </div>
@@ -171,6 +190,44 @@ function App() {
                 </div>
             </footer>
         </div>
+    )
+}
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { PrivacyPolicy } from './pages/PrivacyPolicy'
+import { TermsOfService } from './pages/TermsOfService'
+
+function App() {
+    // Default to dark mode as requested, but also check system preference
+    const [darkMode, setDarkMode] = useState(true)
+
+    useEffect(() => {
+        // Check system preference initially
+        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+        setDarkMode(mediaQuery.matches)
+
+        // Listen for OS theme changes
+        const handler = (e) => setDarkMode(e.matches)
+        mediaQuery.addEventListener('change', handler)
+        return () => mediaQuery.removeEventListener('change', handler)
+    }, [])
+
+    useEffect(() => {
+        if (darkMode) {
+            document.documentElement.classList.add('dark')
+        } else {
+            document.documentElement.classList.remove('dark')
+        }
+    }, [darkMode])
+
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<Home darkMode={darkMode} setDarkMode={setDarkMode} />} />
+                <Route path="/privacy" element={<PrivacyPolicy />} />
+                <Route path="/terms" element={<TermsOfService />} />
+            </Routes>
+        </Router>
     )
 }
 
