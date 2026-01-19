@@ -221,7 +221,7 @@ function App() {
     }, [darkMode])
 
     return (
-        <Router>
+        <Router basename={import.meta.env.BASE_URL}>
             <Routes>
                 <Route path="/" element={<Home darkMode={darkMode} setDarkMode={setDarkMode} />} />
                 <Route path="/privacy" element={<PrivacyPolicy />} />
