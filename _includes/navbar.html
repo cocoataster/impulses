@@ -1,0 +1,20 @@
+<nav class="fixed top-0 w-full z-50 glass border-b border-zinc-100 dark:border-zinc-800/50">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+        <a href="{{ '/' | relative_url }}" class="font-bold text-xl tracking-tight flex items-center gap-2">
+            <div
+                class="w-8 h-8 rounded-lg overflow-hidden border border-zinc-200 dark:border-zinc-800 flex items-center justify-center">
+                <img src="{{ '/assets/images/logo-black.png' | relative_url }}" alt="Impulses"
+                    class="w-full h-full object-cover dark:hidden" />
+                <img src="{{ '/assets/images/logo-white.png' | relative_url }}" alt="Impulses"
+                    class="w-full h-full object-cover hidden dark:block" />
+            </div>
+            Impulses
+        </a>
+        <button id="theme-toggle" type="button"
+            class="p-2 rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors"
+            aria-label="Toggle Dark Mode">
+            <span class="dark:hidden">🌙</span>
+            <span class="hidden dark:block">☀️</span>
+        </button>
+    </div>
+</nav>

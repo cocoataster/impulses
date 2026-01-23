@@ -1,2 +1,9 @@
 node_modules
+.jekyll-cache
+_site
+.sass-cache
+.DS_Store
 .github/.DS_Store
+assets/css/output.css
+# If you don't want to commit the build log
+*.log

@@ -1,0 +1,26 @@
+title: Impulses
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Design your life, don't just buy it.
+baseurl: "/impulses" # the subpath of your site, e.g. /blog
+url: "https://cocoataster.com" # the base hostname & protocol for your site
+
+markdown: kramdown
+plugins: []
+
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - postcss.config.js
+  - vite.config.js
+  - src
+  - dist
+  - setup.sh
+  - .gitignore
+  - .github
+  - Gemfile
+  - Gemfile.lock
+  - .jekyll-cache
+  - _site
