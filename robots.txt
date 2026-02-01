@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /in-app-purchases/
+Disallow: /impulses/in-app-purchases/
