@@ -10,11 +10,18 @@
             </div>
             Impulses
         </a>
-        <button id="theme-toggle" type="button"
-            class="p-2 rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors"
-            aria-label="Toggle Dark Mode">
-            <span class="dark:hidden">🌙</span>
-            <span class="hidden dark:block">☀️</span>
-        </button>
+        <div class="flex items-center gap-1">
+            <button type="button"
+                class="lang-toggle px-2 py-1 text-sm font-medium rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors text-zinc-600 dark:text-zinc-400"
+                aria-label="Switch language">
+                <span class="lang-label">EN</span>
+            </button>
+            <button id="theme-toggle" type="button"
+                class="p-2 rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors"
+                aria-label="Toggle Dark Mode">
+                <span class="dark:hidden">🌙</span>
+                <span class="hidden dark:block">☀️</span>
+            </button>
+        </div>
     </div>
 </nav>
