@@ -40,18 +40,15 @@ window.I18N = {
     "features.badge_label": "Mindful Shopping",
     "features.badge_value": "100% Secure",
 
-    // Testimonials
+    // Testimonials (from App Store)
     "testimonials.title": "Loved by Mindful Spenders",
-    "testimonials.subtitle": "Join thousands who've transformed their relationship with money.",
-    "testimonials.t1": "\"I saved over $800 in just two months! The red panda mascot makes it actually fun to wait before buying.\"",
-    "testimonials.t1_name": "Sarah M.",
-    "testimonials.t1_label": "Saved $800+",
-    "testimonials.t2": "\"Finally an app that understands privacy! No signup, no cloud, just me and my savings goals. Perfect.\"",
-    "testimonials.t2_name": "James K.",
-    "testimonials.t2_label": "Privacy Advocate",
-    "testimonials.t3": "\"The 7-day rule changed how I shop. I went from buying things I never use to only getting what truly matters.\"",
-    "testimonials.t3_name": "Maria T.",
-    "testimonials.t3_label": "Conscious Consumer",
+    "testimonials.subtitle": "Rated 5.0 on the App Store.",
+    "testimonials.t1": "\"A few days ago, I got the impulse to buy a fishing rod simply because I liked fishing as a kid. Thanks to this app, it made me reflect for a few days and I realized I didn't really want it\u2014it was something temporary. Very useful, thank you!\"",
+    "testimonials.t1_name": "joamafer",
+    "testimonials.t1_label": "I just saved money!",
+    "testimonials.t2": "\"With this app I've managed to save several hundred euros by slowing down impulse purchases I didn't really need. Great idea\u2014congrats to the developer.\"",
+    "testimonials.t2_name": "Djalminha8",
+    "testimonials.t2_label": "The solution to stop overspending",
 
     // CTA
     "cta.title": "Ready to Start Saving?",
@@ -141,18 +138,15 @@ window.I18N = {
     "features.badge_label": "Compras conscientes",
     "features.badge_value": "100% Seguro",
 
-    // Testimonials
+    // Testimonials (del App Store)
     "testimonials.title": "Amada por compradores conscientes",
-    "testimonials.subtitle": "\u00danete a miles que han transformado su relaci\u00f3n con el dinero.",
-    "testimonials.t1": "\"\u00a1Ahorr\u00e9 m\u00e1s de $800 en solo dos meses! La mascota panda rojo hace que esperar antes de comprar sea realmente divertido.\"",
-    "testimonials.t1_name": "Sarah M.",
-    "testimonials.t1_label": "Ahorr\u00f3 $800+",
-    "testimonials.t2": "\"\u00a1Por fin una app que entiende la privacidad! Sin registro, sin nube, solo yo y mis metas de ahorro. Perfecta.\"",
-    "testimonials.t2_name": "James K.",
-    "testimonials.t2_label": "Defensor de la privacidad",
-    "testimonials.t3": "\"La regla de los 7 d\u00edas cambi\u00f3 c\u00f3mo compro. Pas\u00e9 de comprar cosas que nunca uso a solo obtener lo que realmente importa.\"",
-    "testimonials.t3_name": "Mar\u00eda T.",
-    "testimonials.t3_label": "Consumidora consciente",
+    "testimonials.subtitle": "Valorada con 5,0 en el App Store.",
+    "testimonials.t1": "\"Hace unos d\u00edas, me dio el impulso de comprar una ca\u00f1a de pescar simplemente porque de chico me gustaba pescar. Y gracias a esta app, me hizo reflexionar durante unos d\u00edas y me di cuenta que realmente no la quer\u00eda, y fue algo temporal. Muy \u00fatil, \u00a1gracias!\"",
+    "testimonials.t1_name": "joamafer",
+    "testimonials.t1_label": "\u00a1Acabo de ahorrar dinero!",
+    "testimonials.t2": "\"Con esta app he conseguido ahorrar varios cientos de euros al frenar compras impulsivas que en realidad no necesitaba. Buena idea enhorabuena al desarrollador\"",
+    "testimonials.t2_name": "Djalminha8",
+    "testimonials.t2_label": "La soluci\u00f3n para dejar de gastar",
 
     // CTA
     "cta.title": "\u00bfListo para empezar a ahorrar?",
