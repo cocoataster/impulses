@@ -1,46 +1,81 @@
 window.I18N = {
   en: {
     // Nav
-    "nav.back": "Back to Home",
+    "nav.back": "Back",
     "nav.skip": "Skip to main content",
 
     // Hero
-    "hero.badge": "Meet Your New Financial Companion",
-    "hero.title1": "Stop Impulse",
-    "hero.title2": "Spending Today",
-    "hero.subtitle": "Meet your red panda companion who helps you pause before purchasing. Transform impulse buys into thoughtful decisions with the 7-day rule.",
-    "hero.cta": "Download on App Store",
-    "hero.cta2": "See how it works",
-    "hero.social": "Join other mindful spenders",
-    "hero.saved_label": "Money Saved",
+    "hero.eyebrow": "Mindful spending, made simple",
+    "hero.title": "Impulses",
+    "hero.display_sub": "All yours to resist.",
+    "hero.lede": "The app you need when temptation hits. Put time between the urge and the purchase — then decide with a clear head.",
+    "hero.rhythm": "<span>Pause.</span> <span>Wait.</span> <span>Decide.</span> One mindful habit.",
+    "hero.price_line": "Free · In‑App Purchases",
+    "hero.devices": "iPhone & iPad",
+    // Pill nav
+    "nav.pill_control": "Control",
+    "nav.pill_stats": "Savings",
+    "nav.pill_details": "Details",
+    "nav.pill_method": "Method",
+    "nav.pill_reviews": "Reviews",
+    "nav.pill_premium": "Premium",
+    "nav.pill_faq": "FAQ",
 
-    // How It Works
-    "how.badge": "The 7-Day Rule",
-    "how.title": "How It Works",
-    "how.subtitle": "Professor Red Panda's simple method to stop impulse buying and start saving intentionally.",
-    "how.step1_title": "Spot the Impulse",
-    "how.step1_desc": "Notice when you're about to make an emotional purchase. Pause and acknowledge the impulse.",
-    "how.step2_title": "Set the Timer",
-    "how.step2_desc": "Add the item to your waiting list with a 7-day countdown. Let the initial excitement fade naturally.",
-    "how.step3_title": "Decide with Clarity",
-    "how.step3_desc": "When the timer ends, decide calmly: buy it, delete it, or extend the wait. No more regrets.",
+    // Chapters
+    "chapter.control.kicker": "Impulse control",
+    "chapter.control.title": "Control your impulses.",
+    "chapter.control.lede": "It's time to balance things out. Queue what you're tempted to buy, lock it behind a waiting period, and come back when the hype has cooled.",
+    "chapter.control.f1_title": "Ready, locked, decided.",
+    "chapter.control.f1_desc": "Sort impulses by status — pending, locked, accepted, or rejected — so nothing slips through unnoticed.",
+    "chapter.control.f2_title": "Like, want, or need.",
+    "chapter.control.f2_desc": "Tag each item to see where your weak spots are and what kind of urge you're actually fighting.",
+    "chapter.control.link": "See the method",
+    "chapter.stats.kicker": "Savings & streaks",
+    "chapter.stats.title": "Save money. See the proof.",
+    "chapter.stats.lede": "Every impulse you resist adds up. Charts, totals, and streaks turn mindful spending into something you can actually measure.",
+    "chapter.stats.f1_title": "Savings over time.",
+    "chapter.stats.f1_desc": "Watch totals grow and compare categories — so you know exactly what waiting has earned you.",
+    "chapter.stats.f2_title": "Streaks that stick.",
+    "chapter.stats.f2_desc": "Build a run of days resisting impulse buys. Only accepted purchases reset your streak.",
+    "chapter.stats.link": "Explore Premium",
+    "chapter.details.kicker": "Every item",
+    "chapter.details.title": "Display items with clarity.",
+    "chapter.details.lede": "Price, link, category, and countdown — everything you need to make a calm call when the timer finally ends.",
+    "chapter.details.f1_title": "Waiting periods that fit.",
+    "chapter.details.f1_desc": "Set delays from 1 to 30 days. Most urges fade long before the clock runs out.",
+    "chapter.details.f2_title": "Gentle nudges.",
+    "chapter.details.f2_desc": "Get notified when a waiting period ends — no pressure, just a clear moment to decide.",
 
-    // Features
-    "features.title": "Everything You Need to ",
-    "features.title_gradient": "Save Smarter",
-    "features.subtitle": "Built with intention, designed for clarity. All your impulse control tools in one beautiful app.",
-    "features.waiting_title": "Smart Waiting Periods",
-    "features.waiting_desc": "Customizable countdown timers from 1 day to 30 days based on item cost.",
-    "features.tracking_title": "Savings Tracking",
-    "features.tracking_desc": "See exactly how much money you've saved by waiting before buying.",
-    "features.reminders_title": "Gentle Reminders",
-    "features.reminders_desc": "Get notified when your waiting period ends. No pressure, just clarity.",
-    "features.privacy_title": "Private by Design",
-    "features.privacy_desc": "Your personal data stays in your Apple ecosystem. No accounts, no tracking of your purchases, secure iCloud sync.",
-    "features.badge_label": "Mindful Shopping",
-    "features.badge_value": "100% Secure",
+    "interstitial.line": "Mindful spending. Real savings. Fewer regrets.",
 
-    // Testimonials (from App Store)
+    // Sections
+    "section.about_label": "About",
+    "section.about": "Built for real impulse moments",
+    "section.iap_label": "Optional",
+    "section.privacy_label": "Trust",
+    "section.privacy": "Your data stays yours",
+
+    // Description
+    "description.p1": "Build a streak of mindful spending. Every impulse you resist counts — see your run on the Stats tab.",
+    "description.p2": "Stop buying things you don't need. Impulses puts time between you and every impulse purchase so you can decide with a clear head and keep more money in your pocket.",
+    "description.p3": "Add any item you're tempted to buy. Set a waiting period from 1 to 30 days. When the timer expires, you decide: purchase or pass. Most people find that the urge has already faded.",
+    "description.p4": "Categorize each impulse as a Like, Want, or Need. Filter your list by status — pending, locked, accepted, or rejected — to stay on top of every decision.",
+    "description.p5": "Track how much money you've saved over time with built-in charts and category breakdowns. Customize currency, tint color, and notification settings across ten major world currencies.",
+    "description.p6": "Upgrade to Premium for custom delay periods, unlimited items, and advanced insights.",
+
+    // In-App Purchases
+    "section.iap": "Go further with Premium",
+    "iap.lifetime_tier": "Lifetime Premium",
+    "iap.lifetime_price": "$17.99",
+    "iap.lifetime_period": "one-time purchase.",
+    "iap.yearly_tier": "Yearly",
+    "iap.yearly_price": "$12.99",
+    "iap.yearly_period": "per year — best value.",
+    "iap.monthly_tier": "Monthly",
+    "iap.monthly_price": "$1.99",
+    "iap.monthly_period": "per month after download.",
+
+    // Testimonials (App Store reviews)
     "testimonials.title": "Loved by Mindful Spenders",
     "testimonials.subtitle": "Rated 5.0 on the App Store.",
     "testimonials.t1": "\"A few days ago, I got the impulse to buy a fishing rod simply because I liked fishing as a kid. Thanks to this app, it made me reflect for a few days and I realized I didn't really want it\u2014it was something temporary. Very useful, thank you!\"",
@@ -50,21 +85,49 @@ window.I18N = {
     "testimonials.t2_name": "Djalminha8",
     "testimonials.t2_label": "The solution to stop overspending",
 
+    // FAQ
+    "faq.title": "Questions? Answers.",
+    "faq.q1": "How does the waiting period work?",
+    "faq.a1": "Add any item you're tempted to buy and choose a delay from 1 to 30 days. While it's locked, you can't buy on impulse — when the timer ends, you decide calmly: purchase, pass, or wait longer.",
+    "faq.q2": "Is Impulses free?",
+    "faq.a2": "Yes. Impulses is free to download. Premium unlocks custom delays, unlimited items, and deeper stats — subscriptions are optional.",
+    "faq.q3": "Where is my data stored?",
+    "faq.a3": "On your device by default. Optional iCloud sync keeps items across your Apple devices in your private database — we don't host or sell your purchase list.",
+    "faq.q4": "What resets my streak?",
+    "faq.a4": "Rejecting an impulse keeps your streak alive. Accepting a purchase resets it — a simple way to measure consistency, not perfection.",
+    "iap.note": "Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period.",
+
+    // What's New
+    "whats_new.badge": "Latest · v1.5.0",
+    "whats_new.headline": "Streaks are here",
+    "whats_new.intro": "Track how many days in a row you've resisted impulse buying — only accepted purchases reset your streak.",
+    "whats_new.b1": "New streak counter on your mindful spending journey.",
+    "whats_new.b2": "Tap the streak to jump straight to Stats.",
+
+    // How It Works
+    "how.label": "The method",
+    "how.title": "Three steps to fewer regrets",
+    "how.step1_title": "Spot the Impulse",
+    "how.step1_desc": "Notice when you're about to make an emotional purchase. Pause and acknowledge the impulse.",
+    "how.step2_title": "Set the Timer",
+    "how.step2_desc": "Add the item to your waiting list with a countdown from 1 to 30 days. Let the excitement fade.",
+    "how.step3_title": "Decide with Clarity",
+    "how.step3_desc": "When the timer ends, decide calmly: buy it, delete it, or extend the wait. No more regrets.",
+
     // CTA
-    "cta.title": "Ready to Start Saving?",
-    "cta.subtitle": "Download Impulses today and join thousands of mindful spenders who've taken control of their purchases.",
-    "cta.button": "Get It On The App Store",
-    "cta.note": "Free to download. No in-app purchases required.",
+    "cta.title": "Ready to slow down your spending?",
+    "cta.subtitle": "Download Impulses and start your first waiting period today.",
+    "cta.note": "Free to download. Premium optional.",
 
     // Privacy Preview
-    "privacy_preview.title": "Your Data Stays Yours",
-    "privacy_preview.desc": "Privacy isn't a feature; it's a foundation. Impulses only tracks <strong class=\"text-zinc-900 dark:text-white\">anonymous</strong> analytics. Your personal data stays in your ecosystem, forever.",
-    "privacy_preview.link": "Read our full Privacy Policy",
+    "privacy_preview.desc": "Anonymous analytics only — no accounts, no selling your purchase history. Personal data stays on your device and in your iCloud, if you enable sync.",
+    "privacy_preview.link": "Read the full privacy policy",
 
     // Footer
-    "footer.tagline": "Design your life, don't just buy it.",
-    "footer.privacy": "Privacy",
-    "footer.terms": "Terms",
+    "footer.tagline": "Stop overspending. Save money.",
+    "footer.privacy": "Privacy Policy",
+    "footer.terms": "Terms of Service",
+    "footer.iap": "In-App Purchases",
     "footer.contact": "Contact",
 
     // Privacy Page
@@ -99,70 +162,133 @@ window.I18N = {
   },
   es: {
     // Nav
-    "nav.back": "Volver al inicio",
+    "nav.back": "Volver",
     "nav.skip": "Saltar al contenido principal",
 
     // Hero
-    "hero.badge": "Conoce a tu nuevo compa\u00f1ero financiero",
-    "hero.title1": "Deja de comprar",
-    "hero.title2": "por impulso",
-    "hero.subtitle": "Conoce a tu compa\u00f1ero panda rojo que te ayuda a pausar antes de comprar. Transforma las compras impulsivas en decisiones reflexivas con la regla de los 7 d\u00edas.",
-    "hero.cta": "Descargar en App Store",
-    "hero.cta2": "Descubre c\u00f3mo funciona",
-    "hero.social": "\u00danete a otros compradores conscientes",
-    "hero.saved_label": "Dinero ahorrado",
+    "hero.eyebrow": "Gasto consciente, sin complicaciones",
+    "hero.title": "Impulses",
+    "hero.display_sub": "Todo tuyo para resistir.",
+    "hero.lede": "La app que necesitas cuando aparece la tentaci\u00f3n. Pon tiempo entre el impulso y la compra — y decide con la cabeza fr\u00eda.",
+    "hero.rhythm": "<span>Pausa.</span> <span>Espera.</span> <span>Decide.</span> Un h\u00e1bito consciente.",
+    "hero.price_line": "Gratis · Compras dentro de la app",
+    "hero.devices": "iPhone e iPad",
+    // Pill nav
+    "nav.pill_control": "Control",
+    "nav.pill_stats": "Ahorro",
+    "nav.pill_details": "Detalle",
+    "nav.pill_method": "M\u00e9todo",
+    "nav.pill_reviews": "Rese\u00f1as",
+    "nav.pill_premium": "Premium",
+    "nav.pill_faq": "FAQ",
+
+    // Chapters
+    "chapter.control.kicker": "Control de impulsos",
+    "chapter.control.title": "Controla tus impulsos.",
+    "chapter.control.lede": "Es hora de equilibrar las cosas. Encola lo que te tienta, bloqu\u00e9alo con un periodo de espera y vuelve cuando pase la emoci\u00f3n.",
+    "chapter.control.f1_title": "Listo, bloqueado, decidido.",
+    "chapter.control.f1_desc": "Ordena por estado — pendiente, bloqueado, aceptado o rechazado — para no perder nada de vista.",
+    "chapter.control.f2_title": "Me gusta, quiero o necesito.",
+    "chapter.control.f2_desc": "Etiqueta cada art\u00edculo y descubre d\u00f3nde est\u00e1n tus puntos d\u00e9biles.",
+    "chapter.control.link": "Ver el m\u00e9todo",
+    "chapter.stats.kicker": "Ahorro y rachas",
+    "chapter.stats.title": "Ahorra dinero. M\u00edralo en datos.",
+    "chapter.stats.lede": "Cada impulso que resistes suma. Gr\u00e1ficos, totales y rachas convierten el gasto consciente en algo medible.",
+    "chapter.stats.f1_title": "Ahorro en el tiempo.",
+    "chapter.stats.f1_desc": "Mira crecer los totales y compara categor\u00edas — para saber exactamente qu\u00e9 te ha dado esperar.",
+    "chapter.stats.f2_title": "Rachas que perduran.",
+    "chapter.stats.f2_desc": "Construye d\u00edas seguidos resistiendo compras por impulso. Solo las compras aceptadas reinician la racha.",
+    "chapter.stats.link": "Explorar Premium",
+    "chapter.details.kicker": "Cada art\u00edculo",
+    "chapter.details.title": "Detalles con claridad.",
+    "chapter.details.lede": "Precio, enlace, categor\u00eda y cuenta atr\u00e1s — todo lo que necesitas para decidir con calma.",
+    "chapter.details.f1_title": "Esperas que encajan.",
+    "chapter.details.f1_desc": "Elige retrasos de 1 a 30 d\u00edas. La mayor\u00eda de impulsos se desvanecen antes de que acabe el tiempo.",
+    "chapter.details.f2_title": "Recordatorios suaves.",
+    "chapter.details.f2_desc": "Te avisamos cuando termina la espera — sin presi\u00f3n, solo un momento claro para decidir.",
+
+    "interstitial.line": "Gasto consciente. Ahorro real. Menos arrepentimientos.",
+
+    // Sections
+    "section.about_label": "Acerca de",
+    "section.about": "Hecha para impulsos de verdad",
+    "section.iap_label": "Opcional",
+    "section.privacy_label": "Confianza",
+    "section.privacy": "Tus datos son tuyos",
+
+    // Description
+    "description.p1": "Crea una racha de gasto consciente. Cada impulso que resistes cuenta: m\u00edrala en la pesta\u00f1a Estad\u00edsticas.",
+    "description.p2": "Deja de comprar cosas que no necesitas. Impulses pone tiempo entre t\u00fa y cada compra impulsiva para decidir con la cabeza fr\u00eda.",
+    "description.p3": "A\u00f1ade cualquier art\u00edculo que te tiente. Elige un periodo de espera de 1 a 30 d\u00edas. Al terminar, decides: comprar o pasar.",
+    "description.p4": "Clasifica cada impulso como Me gusta, Quiero o Necesito. Filtra por estado: pendiente, bloqueado, aceptado o rechazado.",
+    "description.p5": "Sigue cu\u00e1nto has ahorrado con gr\u00e1ficos y desglose por categor\u00eda. Personaliza moneda, color y notificaciones.",
+    "description.p6": "Pasa a Premium para periodos personalizados, art\u00edculos ilimitados y estad\u00edsticas avanzadas.",
+
+    // In-App Purchases
+    "section.iap": "Lleva m\u00e1s lejos con Premium",
+    "iap.lifetime_tier": "Lifetime Premium",
+    "iap.lifetime_price": "19,99 \u20ac",
+    "iap.lifetime_period": "pago \u00fanico.",
+    "iap.yearly_tier": "Anual (1 a\u00f1o)",
+    "iap.yearly_price": "14,99 \u20ac",
+    "iap.yearly_period": "al a\u00f1o — mejor valor.",
+    "iap.monthly_tier": "Mensual (1 mes)",
+    "iap.monthly_price": "1,99 \u20ac",
+    "iap.monthly_period": "al mes tras descargar.",
+
+    // Testimonials (App Store reviews)
+    "testimonials.title": "Amada por compradores conscientes",
+    "testimonials.subtitle": "Valorada con 5,0 en el App Store.",
+    "testimonials.t1": "\"Hace unos d\u00edas tuve el impulso de comprar una ca\u00f1a de pescar solo porque de peque\u00f1o me gustaba pescar. Gracias a esta app, reflexion\u00e9 unos d\u00edas y me di cuenta de que no la quer\u00eda de verdad\u2014era algo temporal. Muy \u00fatil, \u00a1gracias!\"",
+    "testimonials.t1_name": "joamafer",
+    "testimonials.t1_label": "\u00a1Acabo de ahorrar dinero!",
+    "testimonials.t2": "\"Con esta app he conseguido ahorrar varios cientos de euros frenando compras por impulso que no necesitaba de verdad. Gran idea\u2014enhorabuena al desarrollador.\"",
+    "testimonials.t2_name": "Djalminha8",
+    "testimonials.t2_label": "La soluci\u00f3n para dejar de gastar de m\u00e1s",
+
+    // FAQ
+    "faq.title": "\u00bfPreguntas? Respuestas.",
+    "faq.q1": "\u00bfC\u00f3mo funciona el periodo de espera?",
+    "faq.a1": "A\u00f1ade cualquier art\u00edculo y elige un retraso de 1 a 30 d\u00edas. Mientras est\u00e1 bloqueado, no compras por impulso; al terminar, decides con calma: comprar, pasar o esperar m\u00e1s.",
+    "faq.q2": "\u00bfImpulses es gratis?",
+    "faq.a2": "S\u00ed. La descarga es gratuita. Premium desbloquea retrasos personalizados, art\u00edculos ilimitados y estad\u00edsticas avanzadas.",
+    "faq.q3": "\u00bfD\u00f3nde se guardan mis datos?",
+    "faq.a3": "En tu dispositivo por defecto. La sincronizaci\u00f3n opcional con iCloud mantiene los art\u00edculos en tus dispositivos Apple — no vendemos tu lista de compras.",
+    "faq.q4": "\u00bfQu\u00e9 reinicia mi racha?",
+    "faq.a4": "Rechazar un impulso mantiene la racha. Aceptar una compra la reinicia — una forma simple de medir constancia, no perfecci\u00f3n.",
+    "iap.note": "Las suscripciones se renuevan autom\u00e1ticamente salvo cancelaci\u00f3n al menos 24 horas antes del final del periodo actual.",
+
+    // What's New
+    "whats_new.badge": "\u00daltimo · v1.5.0",
+    "whats_new.headline": "Las rachas ya est\u00e1n aqu\u00ed",
+    "whats_new.intro": "Cuenta cu\u00e1ntos d\u00edas seguidos has resistido comprar por impulso; solo las compras aceptadas reinician la racha.",
+    "whats_new.b1": "Nuevo contador de rachas en tu camino de gasto consciente.",
+    "whats_new.b2": "Toca la racha para ir directo a Estad\u00edsticas.",
 
     // How It Works
-    "how.badge": "La regla de los 7 d\u00edas",
-    "how.title": "C\u00f3mo funciona",
-    "how.subtitle": "El m\u00e9todo simple del Profesor Panda Rojo para dejar de comprar por impulso y empezar a ahorrar intencionalmente.",
+    "how.label": "El m\u00e9todo",
+    "how.title": "Tres pasos para menos arrepentimientos",
     "how.step1_title": "Detecta el impulso",
     "how.step1_desc": "Nota cuando est\u00e1s a punto de hacer una compra emocional. Pausa y reconoce el impulso.",
     "how.step2_title": "Pon el temporizador",
-    "how.step2_desc": "A\u00f1ade el art\u00edculo a tu lista de espera con una cuenta atr\u00e1s de 7 d\u00edas. Deja que la emoci\u00f3n inicial se desvanezca naturalmente.",
+    "how.step2_desc": "A\u00f1ade el art\u00edculo a tu lista de espera con una cuenta atr\u00e1s de 1 a 30 d\u00edas. Deja que la emoci\u00f3n se desvanezca.",
     "how.step3_title": "Decide con claridad",
     "how.step3_desc": "Cuando el temporizador termine, decide con calma: c\u00f3mpralo, elim\u00ednalo o extiende la espera. Sin m\u00e1s arrepentimientos.",
 
-    // Features
-    "features.title": "Todo lo que necesitas para ",
-    "features.title_gradient": "ahorrar mejor",
-    "features.subtitle": "Creada con intenci\u00f3n, dise\u00f1ada para la claridad. Todas tus herramientas de control de impulsos en una hermosa app.",
-    "features.waiting_title": "Per\u00edodos de espera inteligentes",
-    "features.waiting_desc": "Temporizadores personalizables de 1 a 30 d\u00edas seg\u00fan el costo del art\u00edculo.",
-    "features.tracking_title": "Seguimiento de ahorros",
-    "features.tracking_desc": "Mira exactamente cu\u00e1nto dinero has ahorrado esperando antes de comprar.",
-    "features.reminders_title": "Recordatorios amables",
-    "features.reminders_desc": "Recibe notificaciones cuando tu per\u00edodo de espera termine. Sin presi\u00f3n, solo claridad.",
-    "features.privacy_title": "Privacidad por dise\u00f1o",
-    "features.privacy_desc": "Tus datos personales se quedan en tu ecosistema Apple. Sin cuentas, sin rastreo de tus compras, sincronizaci\u00f3n segura con iCloud.",
-    "features.badge_label": "Compras conscientes",
-    "features.badge_value": "100% Seguro",
-
-    // Testimonials (del App Store)
-    "testimonials.title": "Amada por compradores conscientes",
-    "testimonials.subtitle": "Valorada con 5,0 en el App Store.",
-    "testimonials.t1": "\"Hace unos d\u00edas, me dio el impulso de comprar una ca\u00f1a de pescar simplemente porque de chico me gustaba pescar. Y gracias a esta app, me hizo reflexionar durante unos d\u00edas y me di cuenta que realmente no la quer\u00eda, y fue algo temporal. Muy \u00fatil, \u00a1gracias!\"",
-    "testimonials.t1_name": "joamafer",
-    "testimonials.t1_label": "\u00a1Acabo de ahorrar dinero!",
-    "testimonials.t2": "\"Con esta app he conseguido ahorrar varios cientos de euros al frenar compras impulsivas que en realidad no necesitaba. Buena idea enhorabuena al desarrollador\"",
-    "testimonials.t2_name": "Djalminha8",
-    "testimonials.t2_label": "La soluci\u00f3n para dejar de gastar",
-
     // CTA
-    "cta.title": "\u00bfListo para empezar a ahorrar?",
-    "cta.subtitle": "Descarga Impulses hoy y \u00fanete a miles de compradores conscientes que han tomado el control de sus compras.",
-    "cta.button": "Obt\u00e9nla en el App Store",
-    "cta.note": "Gratis para descargar. Sin compras dentro de la app.",
+    "cta.title": "\u00bfListo para frenar tus compras?",
+    "cta.subtitle": "Descarga Impulses y empieza tu primer periodo de espera hoy.",
+    "cta.note": "Gratis para descargar. Premium opcional.",
 
     // Privacy Preview
-    "privacy_preview.title": "Tus datos son tuyos",
-    "privacy_preview.desc": "La privacidad no es una funci\u00f3n; es un pilar. Impulses solo registra anal\u00edticas <strong class=\"text-zinc-900 dark:text-white\">an\u00f3nimas</strong>. Tus datos personales se quedan en tu ecosistema, para siempre.",
-    "privacy_preview.link": "Lee nuestra Pol\u00edtica de Privacidad completa",
+    "privacy_preview.desc": "Solo anal\u00edticas an\u00f3nimas: sin cuentas ni venta de tu historial de compras. Tus datos personales se quedan en tu dispositivo y en iCloud, si activas la sincronizaci\u00f3n.",
+    "privacy_preview.link": "Lee la pol\u00edtica de privacidad completa",
 
     // Footer
-    "footer.tagline": "Dise\u00f1a tu vida, no solo compres.",
-    "footer.privacy": "Privacidad",
-    "footer.terms": "T\u00e9rminos",
+    "footer.tagline": "Deja de gastar de m\u00e1s. Ahorra dinero.",
+    "footer.privacy": "Pol\u00edtica de privacidad",
+    "footer.terms": "T\u00e9rminos de servicio",
+    "footer.iap": "Compras dentro de la app",
     "footer.contact": "Contacto",
 
     // Privacy Page
@@ -224,8 +350,12 @@ window.applyLanguage = function(lang) {
   localStorage.setItem('lang', lang);
   window.__lang = lang;
 
-  var labels = document.querySelectorAll('.lang-label');
-  labels.forEach(function(label) {
-    label.textContent = lang.toUpperCase();
+  window.updateLangToggleLabels(lang);
+};
+
+window.updateLangToggleLabels = function(lang) {
+  var target = lang === 'en' ? 'ES' : 'EN';
+  document.querySelectorAll('.lang-label').forEach(function(label) {
+    label.textContent = target;
   });
 };

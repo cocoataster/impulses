@@ -1,28 +1,18 @@
-<footer class="py-12 border-t border-zinc-200 dark:border-zinc-800">
-    <div
-        class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center bg-zinc-50/50 dark:bg-zinc-900/50 rounded-3xl p-8 mb-4">
-        <div class="mb-4 md:mb-0 text-center md:text-left">
-            <div class="flex items-center gap-2 mb-2 justify-center md:justify-start">
-                <div class="w-8 h-8 rounded-lg overflow-hidden border border-zinc-200 dark:border-zinc-800">
-                    <img src="{{ '/assets/images/logo-black.png' | relative_url }}" alt="Impulses"
-                        class="w-full h-full object-cover dark:hidden" />
-                    <img src="{{ '/assets/images/logo-white.png' | relative_url }}" alt="Impulses"
-                        class="w-full h-full object-cover hidden dark:block" />
-                </div>
-                <span class="font-bold text-2xl tracking-tight">Impulses</span>
+<footer class="border-t apple-divider py-10">
+    <div class="page-container">
+        <div class="flex flex-col items-center justify-between gap-6 text-center md:flex-row md:text-left">
+            <p class="text-[13px] text-apple-muted dark:text-[#a1a1a6]" data-i18n="footer.tagline">
+                Stop overspending. Save money.
+            </p>
+            <div class="flex flex-wrap justify-center gap-6 text-[13px] text-apple-muted dark:text-[#a1a1a6]">
+                <a href="{{ '/privacy' | relative_url }}" class="apple-link" data-i18n="footer.privacy">Privacy Policy</a>
+                <a href="{{ '/terms' | relative_url }}" class="apple-link" data-i18n="footer.terms">Terms of Service</a>
+                <a href="{{ '/' | relative_url }}#in-app-purchases" class="apple-link" data-i18n="footer.iap">In-App Purchases</a>
+                <a href="mailto:hello@impulses.app" class="apple-link" data-i18n="footer.contact">Contact</a>
             </div>
-            <p class="text-zinc-500 text-sm" data-i18n="footer.tagline">Design your life, don't just buy it.</p>
         </div>
-        <div class="flex gap-6 text-sm font-medium text-zinc-600 dark:text-zinc-400">
-            <a href="{{ '/privacy' | relative_url }}"
-                class="hover:text-black dark:hover:text-white transition-colors" data-i18n="footer.privacy">Privacy</a>
-            <a href="{{ '/terms' | relative_url }}"
-                class="hover:text-black dark:hover:text-white transition-colors" data-i18n="footer.terms">Terms</a>
-            <a href="mailto:hello@impulses.app"
-                class="hover:text-black dark:hover:text-white transition-colors" data-i18n="footer.contact">Contact</a>
-        </div>
-    </div>
-    <div class="text-center text-zinc-400 text-xs">
-        &copy; {{ site.time | date: '%Y' }} Impulses App. All rights reserved.
+        <p class="mt-8 text-center text-[12px] text-apple-muted dark:text-[#a1a1a6]">
+            &copy; {{ site.time | date: '%Y' }} Cocoatasters
+        </p>
     </div>
 </footer>

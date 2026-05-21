@@ -3,45 +3,12 @@ layout: default
 title: Terms of Service - Impulses
 ---
 
-<nav class="fixed top-0 w-full z-50 glass border-b border-zinc-100 dark:border-zinc-800/50">
-    <div class="max-w-3xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="{{ '/' | relative_url }}"
-            class="flex items-center gap-2 text-zinc-500 hover:text-zinc-900 dark:hover:text-white transition-colors">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="m12 19-7-7 7-7" />
-                <path d="M19 12H5" />
-            </svg>
-            <span class="font-medium" data-i18n="nav.back">Back to Home</span>
-        </a>
-        <div class="flex items-center gap-1">
-            <button type="button"
-                class="lang-toggle px-2 py-1 text-sm font-medium rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors text-zinc-600 dark:text-zinc-400"
-                aria-label="Switch language">
-                <span class="lang-label">EN</span>
-            </button>
-            <button id="theme-toggle" type="button"
-                class="p-2 rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors"
-                aria-label="Toggle Dark Mode">
-                <span class="dark:hidden">🌙</span>
-                <span class="hidden dark:block">☀️</span>
-            </button>
-        </div>
-    </div>
-</nav>
+{% include subpage_nav.html %}
 
-<main id="main-content" class="pt-32 pb-20 px-6">
-    <div class="max-w-3xl mx-auto">
-        <div
-            class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-orange-500/10 text-orange-500 mb-8">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
-                <polyline points="14.5 2 14.5 7.5 20 7.5" />
-            </svg>
-        </div>
-        <h1 class="text-4xl md:text-5xl font-bold mb-6 tracking-tight" data-i18n="terms.title">Terms of Service</h1>
-        <p class="text-xl text-zinc-500 dark:text-zinc-400 mb-12 leading-relaxed" data-i18n="terms.intro">
+<main id="main-content" class="px-6 pb-20 pt-20">
+    <div class="mx-auto max-w-3xl">
+        <h1 class="mb-4 text-[32px] font-semibold tracking-tight text-apple-text dark:text-[#f5f5f7]" data-i18n="terms.title">Terms of Service</h1>
+        <p class="apple-prose mb-12" data-i18n="terms.intro">
             By using Impulses, you agree to these simple terms. We've kept them short and human-readable, just like the
             app.
         </p>
@@ -59,9 +26,9 @@ title: Terms of Service - Impulses
                             <path d="M12 3v18" />
                         </svg>
                     </div>
-                    <h2 class="text-2xl font-bold" data-i18n="terms.license_title">1. License & Usage</h2>
+                    <h2 class="text-xl font-semibold text-apple-text dark:text-[#f5f5f7]" data-i18n="terms.license_title">1. License & Usage</h2>
                 </div>
-                <p class="text-zinc-600 dark:text-zinc-400 leading-relaxed" data-i18n="terms.license_desc">
+                <p class="text-apple-muted dark:text-[#a1a1a6] leading-relaxed" data-i18n="terms.license_desc">
                     Impulses is a productivity tool designed to help you manage spending habits. We grant you a
                     personal, non-exclusive license to use the app on your Apple devices. You agree not to attempt to
                     decompile or reverse engineer the software.
@@ -78,9 +45,9 @@ title: Terms of Service - Impulses
                             <path d="m9 12 2 2 4-4" />
                         </svg>
                     </div>
-                    <h2 class="text-2xl font-bold" data-i18n="terms.responsibility_title">2. Your Responsibility</h2>
+                    <h2 class="text-xl font-semibold text-apple-text dark:text-[#f5f5f7]" data-i18n="terms.responsibility_title">2. Your Responsibility</h2>
                 </div>
-                <p class="text-zinc-600 dark:text-zinc-400 leading-relaxed" data-i18n="terms.responsibility_desc">
+                <p class="text-apple-muted dark:text-[#a1a1a6] leading-relaxed" data-i18n="terms.responsibility_desc">
                     The app is provided "as is". While we strive for perfection, we are not responsible for any
                     financial decisions or losses incurred while using the app. The "Cooling-off" periods and
                     reflections are suggestions, and the final decision to purchase remains yours.
@@ -98,9 +65,9 @@ title: Terms of Service - Impulses
                             <line x1="12" x2="12.01" y1="17" y2="17" />
                         </svg>
                     </div>
-                    <h2 class="text-2xl font-bold" data-i18n="terms.warranty_title">3. No Warranty</h2>
+                    <h2 class="text-xl font-semibold text-apple-text dark:text-[#f5f5f7]" data-i18n="terms.warranty_title">3. No Warranty</h2>
                 </div>
-                <p class="text-zinc-600 dark:text-zinc-400 leading-relaxed" data-i18n="terms.warranty_desc">
+                <p class="text-apple-muted dark:text-[#a1a1a6] leading-relaxed" data-i18n="terms.warranty_desc">
                     We provide the app without any warrant of any kind. Since all data is stored locally, we cannot
                     recover any lost data if you delete the app or lose your device without a system backup (e.g.,
                     iCloud backup).
@@ -109,7 +76,7 @@ title: Terms of Service - Impulses
 
             <section class="pt-8 border-t border-zinc-100 dark:border-zinc-800">
                 <h2 class="text-xl font-bold mb-4" data-i18n="terms.updates_title">Updates to Terms</h2>
-                <p class="text-zinc-600 dark:text-zinc-400 mb-4" data-i18n="terms.updates_desc">
+                <p class="text-apple-muted dark:text-[#a1a1a6] mb-4" data-i18n="terms.updates_desc">
                     We may update these terms occasionally to reflect changes in the app or legal requirements.
                 </p>
                 <a href="mailto:hello@impulses.app" class="text-blue-500 hover:underline font-medium">
